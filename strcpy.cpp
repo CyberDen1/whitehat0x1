@@ -9,6 +9,6 @@ if (argc < 2)
 printf("ERROR - Vy dolzhny predostavit kak minimum odin argument\n");
 return 1;
 }
-strcpy(buffer, argv[1] );
+strcpy(buffer, argv[1]);
 return 0;
 }
